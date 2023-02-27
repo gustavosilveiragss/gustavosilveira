@@ -5,7 +5,30 @@
 @layer components {
   
   /* HOME */
-  
+  .home .btn {
+    transition: transform 0.2s;
+  }
+  .home .btn:hover {
+    transform: scale(1.05) translateZ(0);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  /* ABOUT */
+  .interests {
+    @apply pl-7
+  }
+  .interests li::marker {
+    content: "► ";
+  }
+  .social {
+    transition: transform 0.15s;
+  }
+  .social:hover {
+    transform: scale(1.01) translateZ(0);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
 
 }
 

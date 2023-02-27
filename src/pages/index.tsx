@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import Home from '../components/Home';
 import DrawerLayout from '../components/NavBar/DrawerLayout';
 import Skills from '../components/Skills';
+import About from '../components/About';
+import Footer from '../components/Footer';
 
 export default function Index() {
   useEffect(() => {
@@ -27,22 +29,15 @@ export default function Index() {
       </Head>
 
       <main>
-        {/* <BrowserRouter> */}
         <div className='bg-base-100 flex-col'>
           <DrawerLayout>
             <Home />
-
-            {/* About */}
-
+            <About />
             <Skills />
-
             {/* Projects */}
-
-            {/* Footer */}
-
+            <Footer />
           </DrawerLayout>
         </div>
-        {/* </BrowserRouter> */}
       </main>
     </>
   );

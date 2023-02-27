@@ -1,5 +1,4 @@
-import { IoLogoReact, IoLogoNodejs, IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiNextdotjs, SiJquery, SiDart, SiFlutter, SiDotnet, SiCsharp, SiMicrosoftsqlserver, SiFirebase } from "react-icons/si";
+import { SiNextdotjs, SiJquery, SiDart, SiFlutter, SiDotnet, SiCsharp, SiMicrosoftsqlserver, SiFirebase, SiTypescript, SiJavascript, SiNodedotjs, SiReact } from "react-icons/si";
 
 const Skills = () => (
     <section id="skills">
@@ -16,89 +15,97 @@ const Skills = () => (
 
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4 items-center justify-center">
                         <div id="js" className="card">
-                            <figure><IoLogoJavascript size={80} /></figure>
+                            <figure><SiJavascript size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     JavaScript
                                 </h2>
                             </div>
                         </div>
-                        <div id="node" className="card">
-                            <figure><IoLogoNodejs size={80} /></figure>
+                        <div id="ts" className="card">
+                            <figure><SiTypescript size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
+                                    TypeScript
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="node" className="card">
+                            <figure><SiNodedotjs size={80} color='white' /></figure>
+                            <div className="card-body p-1">
+                                <h2 className="card-title justify-center text-white">
                                     Node.js
                                 </h2>
                             </div>
                         </div>
                         <div id="react" className="card">
-                            <figure><IoLogoReact size={80} /></figure>
+                            <figure><SiReact size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     React
                                 </h2>
                             </div>
                         </div>
                         <div id="next" className="card">
-                            <figure><SiNextdotjs size={80} /></figure>
+                            <figure><SiNextdotjs size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     Next.js
                                 </h2>
                             </div>
                         </div>
                         <div id="jquery" className="card">
-                            <figure><SiJquery size={80} /></figure>
+                            <figure><SiJquery size={80} color='white'/></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     JQuery
                                 </h2>
                             </div>
                         </div>
                         <div id="dart" className="card">
-                            <figure><SiDart size={80} /></figure>
+                            <figure><SiDart size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     Dart
                                 </h2>
                             </div>
                         </div>
                         <div id="flutter" className="card">
-                            <figure><SiFlutter size={80} /></figure>
+                            <figure><SiFlutter size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     Flutter
                                 </h2>
                             </div>
                         </div>
                         <div id="firebase" className="card">
-                            <figure><SiFirebase size={80} /></figure>
+                            <figure><SiFirebase size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     Firebase
                                 </h2>
                             </div>
                         </div>
                         <div id="dotnet" className="card">
-                            <figure><SiDotnet size={80} /></figure>
+                            <figure><SiDotnet size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     .NET
                                 </h2>
                             </div>
                         </div>
                         <div id="csharp" className="card">
-                            <figure><SiCsharp size={80} /></figure>
+                            <figure><SiCsharp size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     C#
                                 </h2>
                             </div>
                         </div>
                         <div id="mssql" className="card">
-                            <figure><SiMicrosoftsqlserver size={80} /></figure>
+                            <figure><SiMicrosoftsqlserver size={80} color='white' /></figure>
                             <div className="card-body p-1">
-                                <h2 className="card-title justify-center">
+                                <h2 className="card-title justify-center text-white">
                                     MSSQL
                                 </h2>
                             </div>

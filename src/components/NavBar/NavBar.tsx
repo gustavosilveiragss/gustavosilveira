@@ -1,5 +1,6 @@
 import React from "react";
 import { useSessionStorage } from "usehooks-ts";
+import { BsBraces } from "react-icons/bs";
 
 import NavBarPages from "./NavBarPages";
 
@@ -8,9 +9,8 @@ const Navbar = () => {
     const toggleDrawer = () => setOpen((prev) => !prev);
 
     return (
-        <div className="w-full sticky top-0 navbar bg-base-100 z-50">
-            {/* logo */}
-            <div className="flex-1 px-2 mx-2"></div>
+        <div className="w-full sticky top-0 navbar bg-base-100 z-50 lg:justify-around justify-between">
+            <BsBraces size={35} color='white' />
 
             <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal">
