@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 
 import Home from '../components/Home';
 import DrawerLayout from '../components/NavBar/DrawerLayout';
+import Skills from '../components/Skills';
 
 export default function Index() {
   useEffect(() => {
@@ -32,6 +33,8 @@ export default function Index() {
             <Home />
 
             {/* About */}
+
+            <Skills />
 
             {/* Projects */}
 

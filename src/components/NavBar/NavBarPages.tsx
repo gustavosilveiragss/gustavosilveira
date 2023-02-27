@@ -10,6 +10,7 @@ const NavBtn = ({ id }) => {
                 element && element.scrollIntoView({ behavior: "smooth", block: "start" });
                 window.history.replaceState(null, '', id == 'home' ? '/' : ('#' + id));
             }}
+            className="text-white"
         >
             {id.toUpperCase()}
         </button>
@@ -23,7 +24,7 @@ const NavBarPages = () => {
                 <NavBtn id='home'></NavBtn>
             </li>
             <li>
-                <NavBtn id='about'></NavBtn>
+                <NavBtn id='skills'></NavBtn>
             </li>
             <li>
                 <NavBtn id='projects'></NavBtn>
