@@ -1,12 +1,20 @@
 import Head from 'next/head';
-import { useSessionStorage } from "usehooks-ts";
+import { useEffect } from 'react';
 
 import Home from '../components/Home';
 import DrawerLayout from '../components/NavBar/DrawerLayout';
 
 export default function Index() {
-  const [, setOpen] = useSessionStorage("drawer", false);
-  const toggleDrawer = () => setOpen((prev) => !prev);
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    let url = window.location.href.split("/");
+    let target = url[url.length - 1].toLowerCase();
+    let element = document.getElementById(target);
+    element && element.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
 
   return (
     <>
@@ -18,19 +26,20 @@ export default function Index() {
       </Head>
 
       <main>
+        {/* <BrowserRouter> */}
         <div className='bg-base-100 flex-col'>
           <DrawerLayout>
             <Home />
+
+            {/* About */}
+
+            {/* Projects */}
+
+            {/* Footer */}
+
           </DrawerLayout>
-
-
-
-          {/* About */}
-
-          {/* Projects */}
-
-          {/* Footer */}
         </div>
+        {/* </BrowserRouter> */}
       </main>
     </>
   );
