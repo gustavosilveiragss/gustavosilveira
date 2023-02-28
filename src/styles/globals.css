@@ -5,7 +5,7 @@
 @layer components {
 
   section {
-    @apply relative flex flex-col items-center m-[-0.5px]
+    @apply relative flex flex-col items-center mt-[-0.5px]
   }
 
   /* --------------------------- HOME --------------------------- */
@@ -95,11 +95,18 @@ body {
   transform-style: preserve-3d;
   outline: 1px solid transparent;
   will-change: border-radius;
-  width: calc(100% + 100px);
-  height: calc(100% + 80px);
+  height: 50vh;
+  width: 90vw;
   position: relative;
-  top: 40px;
+  top: 60px;
+}
 
+@media (min-width: 1024px) {
+  .gooey {
+    width: calc(100% + 100px);
+    height: calc(100% + 80px);
+    top: 40px;
+  }
 }
 
 .gooey:before,

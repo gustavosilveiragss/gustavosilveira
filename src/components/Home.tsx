@@ -1,5 +1,6 @@
 import Image from "next/image";
 import test from "../../public/images/me.jpeg";
+import { useLayoutEffect, useRef, useState } from "react";
 
 const Home = () => {
     return (
