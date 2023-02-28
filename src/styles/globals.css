@@ -3,34 +3,154 @@
 @tailwind utilities;
 
 @layer components {
-  
-  /* HOME */
+
+  section {
+    @apply relative flex flex-col items-center m-[-0.5px]
+  }
+
+  /* --------------------------- HOME --------------------------- */
   .home .btn {
     transition: transform 0.2s;
   }
+
   .home .btn:hover {
     transform: scale(1.05) translateZ(0);
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
-  /* ABOUT */
+  /* --------------------------- ABOUT --------------------------- */
   .interests {
     @apply pl-7
   }
+
   .interests li::marker {
     content: "► ";
   }
+
   .social {
     transition: transform 0.15s;
   }
+
   .social:hover {
     transform: scale(1.01) translateZ(0);
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
+  .wave-abt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .wave-abt svg {
+    position: relative;
+    display: block;
+    width: calc(170%);
+    height: 123px;
+  }
+
+  @media (min-width: 768px) {
+    .wave-abt svg {
+      width: calc(140% + 1.3px);
+    }
+  }
+
+  .wave-abt .shape-fill {
+    fill: #27223A;
+  }
+
+  /* --------------------------- SKILLS --------------------------- */
+
+  .spacer-skills {
+    aspect-ratio: 960/330;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../public/vectors/waves-skills.svg');
+    position: absolute;
+    margin-top: -1px;
+  }
+
 }
+
+body {
+  overflow: hidden;
+  animation: fadeIn 500ms reverse;
+}
+
+/* --------------------------- GOOEY --------------------------- */
+/* https://codepen.io/pgalor/pen/xyPGvJ */
+
+.gooey {
+  background-image: linear-gradient(60deg, #2B2640 0%, #6A548F 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  animation: morph 8s linear infinite;
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+  width: calc(100% + 100px);
+  height: calc(100% + 80px);
+  position: relative;
+  top: 40px;
+
+}
+
+.gooey:before,
+.gooey:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(30deg, #A882DD 20%, #62E4B9 80%);
+}
+
+@keyframes morph {
+
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+
+  50% {
+    opacity: .89;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    transform: scale(1.03);
+    opacity: 0;
+  }
+}
+
+/* --------------------------- GOOEY --------------------------- */
+
 
 :root {
   --max-width: 1100px;
