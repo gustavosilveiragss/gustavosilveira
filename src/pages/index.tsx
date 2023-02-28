@@ -25,7 +25,7 @@ export default function Index() {
         <title>Gustavo Silveira</title>
         <meta name="description" content="Gustavo Silveira's personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/flavicon.ico" />
       </Head>
 
       <main>

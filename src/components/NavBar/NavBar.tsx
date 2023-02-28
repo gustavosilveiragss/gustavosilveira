@@ -1,8 +1,9 @@
 import React from "react";
 import { useSessionStorage } from "usehooks-ts";
-import { BsBraces } from "react-icons/bs";
+import Image from "next/image";
 
 import NavBarPages from "./NavBarPages";
+import Logo from '../../../public/icons/logo-temp.svg';
 
 const Navbar = () => {
     const [, setOpen] = useSessionStorage("drawer", false);
@@ -10,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="w-full sticky top-0 navbar bg-base-100 z-50 lg:justify-around justify-between">
-            <BsBraces size={35} color='white' />
+            <Image alt="G" height={45} src={Logo} />
 
             <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal">
