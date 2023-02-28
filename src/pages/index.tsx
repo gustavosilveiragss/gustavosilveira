@@ -6,6 +6,7 @@ import DrawerLayout from '../components/NavBar/DrawerLayout';
 import Skills from '../components/Skills';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import Projects from '../components/Projects';
 
 export default function Index() {
   useEffect(() => {
@@ -34,11 +35,12 @@ export default function Index() {
             <Home />
             <About />
             <Skills />
-            {/* Projects */}
+            <Projects />
             <Footer />
           </DrawerLayout>
         </div>
       </main>
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </>
   );
 }

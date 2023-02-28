@@ -20,7 +20,7 @@ const About = () => {
                             <div className="pt-2 text-accent max-w-lg">
                                 I&apos;ve always enjoyed <span className="text-info">building things</span>. Before high school, I started getting interested in programming. Since then, I&apos;ve been a part of <span className="text-info">two startups</span>, working mostly with <span className="text-info">mobile and web development</span>.<br /><br />
                                 Currently, I&apos;m studying <span className="text-info">Software Engineering (PUCPR)</span> and working on personal projects. However, I am actively seeking new job opportunities this year.<br /> <br />
-                                When I&apos;m not coding or studying, some of my <span className="text-info">main interests</span> are:
+                                Outside of coding, some of my <span className="text-info">main interests</span> include:
                                 <ul className="interests">
                                     <li>Hiking</li>
                                     <li>Reading</li>

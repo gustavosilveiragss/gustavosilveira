@@ -5,7 +5,7 @@
 @layer components {
 
   section {
-    @apply relative flex flex-col items-center mt-[-0.5px]
+    @apply relative flex flex-col items-center mt-[-1px]
   }
 
   /* --------------------------- HOME --------------------------- */
@@ -77,6 +77,29 @@
     position: absolute;
     margin-top: -1px;
   }
+
+  /* --------------------------- PROJECTS --------------------------- */
+
+  .wave-proj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .wave-proj svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 69px;
+  }
+
+  .wave-proj .shape-fill {
+    fill: #27223A;
+  }
+
 
 }
 
