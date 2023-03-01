@@ -12,7 +12,7 @@ const Skills = () => (
                             <h3 className="text-lg text-white mr-1">SKILLS</h3>
                             <div className="h-[1px] w-full bg-secondary block relative top-3"></div>
                         </div>
-                        <h1 className="text-5xl font-bold text-info">Technologies I use</h1>
+                        <h1 className="text-5xl font-bold text-info">Technologies I&apos;ve used</h1>
                         <div className="pt-2 text-white">Though I&apos;ve experimented with many other tools,<br /> I&apos;m most experienced with:</div>
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4 items-center justify-center">
