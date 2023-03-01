@@ -11,7 +11,7 @@ const Projects = () => {
                 </svg>
             </div>
             <div className="projects w-full min-h-screen bg-base-300">
-                <div className="p-20 gap-4 flex flex-col items-stretch">
+                <div className="p-8 md:p-20 gap-4 flex flex-col items-stretch">
                     <div>
                         <div className="flex flex-row w-full">
                             <h3 className="text-lg text-white mr-1">PROJECTS</h3>
@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                         <h1 className="text-5xl font-bold text-white">Some personal projects</h1>
                         <div className="flex flex-wrap gap-5 pt-4 items-stretch justify-center">
-                            <div className="card w-[500px] bg-base-100 shadow-2xl">
+                            <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <div className="carousel carousel-slider self-center h-max flex items-center">
                                     <img alt="." className="rounded-2xl" src="/images/projects/bacqpack/bacqpack.png" />
                                 </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-[500px] bg-base-100 shadow-2xl">
+                            <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                     <div className="self-center h-max flex items-center">
                                         <img alt="." className="rounded-2xl" src="/images/projects/museum/museum.png" />
@@ -65,7 +65,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-[500px] bg-base-100 shadow-2xl">
+                            <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                 <div className="self-center h-max flex items-center">
                                         <img alt="." className="rounded-2xl" src="/images/projects/dolphin/dolphin.png" />
