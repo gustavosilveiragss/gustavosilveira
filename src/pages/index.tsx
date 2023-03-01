@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { useEffect } from 'react';
 
 import Home from '../components/Home';
 import DrawerLayout from '../components/NavBar/DrawerLayout';
@@ -9,17 +8,6 @@ import Footer from '../components/Footer';
 import Projects from '../components/Projects';
 
 export default function Index() {
-  useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
-    let url = window.location.href.split("/");
-    let target = url[url.length - 1].toLowerCase();
-    let element = document.getElementById(target);
-    element && element.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, []);
-
   return (
     <>
       <Head>
@@ -40,7 +28,6 @@ export default function Index() {
           </DrawerLayout>
         </div>
       </main>
-      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </>
   );
 }

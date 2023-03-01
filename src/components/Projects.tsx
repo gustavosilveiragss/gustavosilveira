@@ -29,8 +29,8 @@ const Projects = () => {
                         <div className="flex flex-wrap gap-5 pt-4 items-center justify-center">
                             <div className="card w-[500px] pb-7 bg-base-100 shadow-xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
-                                    <img className="rounded-2xl" src="/images/lakitu.jpg" />
-                                    <img className="rounded-2xl" src="/images/me.jpeg" />
+                                    <img alt="." className="rounded-2xl" src="/images/lakitu.jpg" />
+                                    <img alt="." className="rounded-2xl" src="/images/me.jpeg" />
                                 </Carousel>
                                 <div className="card-body">
                                     <h2 className="card-title">
@@ -46,8 +46,8 @@ const Projects = () => {
                             </div>
                             <div className="card w-[500px] bg-base-100 shadow-xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
-                                    <img className="rounded-2xl" src="/images/lakitu.jpg" />
-                                    <img className="rounded-2xl" src="/images/me.jpeg" />
+                                    <img alt="." className="rounded-2xl" src="/images/lakitu.jpg" />
+                                    <img alt="." className="rounded-2xl" src="/images/me.jpeg" />
                                 </Carousel>
                                 <div className="card-body">
                                     <h2 className="card-title">
@@ -66,8 +66,8 @@ const Projects = () => {
                             </div>
                             <div className="card w-[500px] pb-7 bg-base-100 shadow-xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
-                                    <img className="rounded-2xl" src="/images/lakitu.jpg" />
-                                    <img className="rounded-2xl" src="/images/me.jpeg" />
+                                    <img alt="." className="rounded-2xl" src="/images/lakitu.jpg" />
+                                    <img alt="." className="rounded-2xl" src="/images/me.jpeg" />
                                 </Carousel>
                                 <div className="card-body">
                                     <h2 className="card-title">
