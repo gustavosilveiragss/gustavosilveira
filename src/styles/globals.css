@@ -78,6 +78,34 @@
     margin-top: -1px;
   }
 
+  /* --------------------------- EXPERIENCE --------------------------- */
+
+  .wave-exp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .wave-exp svg {
+    position: relative;
+    display: block;
+    height: 88px;
+    transform: rotateY(180deg);
+  }
+
+  @media (min-width: 768px) {
+    .wave-exp svg {
+      width: calc(169% + 1.3px);
+    }
+  }
+
+  .wave-exp .shape-fill {
+    fill: #27223A;
+  }
+
   /* --------------------------- PROJECTS --------------------------- */
 
   .wave-proj {
@@ -97,11 +125,10 @@
   }
 
   .wave-proj .shape-fill {
-    fill: #27223A;
+    fill: #6A548F;
   }
 
   .card {
-    box-shadow: 0 30px 30px -25px #27223A;
     transition: transform 0.25s;
   }
 

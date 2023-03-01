@@ -1,17 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
-
     return (
         <section id="projects">
             <div className="wave-proj">
@@ -19,7 +10,7 @@ const Projects = () => {
                     <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
                 </svg>
             </div>
-            <div className="projects w-full min-h-screen bg-neutral">
+            <div className="projects w-full min-h-screen bg-base-300">
                 <div className="p-20 gap-4 flex flex-col items-stretch">
                     <div>
                         <div className="flex flex-row w-full">
@@ -28,13 +19,13 @@ const Projects = () => {
                         </div>
                         <h1 className="text-5xl font-bold text-white">Some personal projects</h1>
                         <div className="flex flex-wrap gap-5 pt-4 items-stretch justify-center">
-                            <div className="card w-[500px] bg-base-100">
+                            <div className="card w-[500px] bg-base-100 shadow-2xl">
                                 <div className="carousel carousel-slider self-center h-max flex items-center">
                                     <img alt="." className="rounded-2xl" src="/images/projects/bacqpack/bacqpack.png" />
                                 </div>
-                                <div className="card-body">
-                                    <h2 className="card-title">
-                                        Bacqpack <a href="https://github.com/gustavosilveiragss/bacqpack-flutter" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
+                                <div className="card-body text-white">
+                                    <h2 className="flex flex-wrap card-title">
+                                        Bacqpack <a href="https://github.com/gustavosilveiragss/bacqpack-flutter" className="btn border-opacity-0 lg:ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
                                     </h2>
                                     <p className="h-min">App for managing backpacks. <br />
                                         The idea started after frequently losing/forgetting things while hiking. <br />
@@ -48,7 +39,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-[500px] bg-base-100">
+                            <div className="card w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                     <div className="self-center h-max flex items-center">
                                         <img alt="." className="rounded-2xl" src="/images/projects/museum/museum.png" />
@@ -57,8 +48,8 @@ const Projects = () => {
                                     <img alt="." className="rounded-2xl" src="/images/projects/museum/2.png" />
                                     <img alt="." className="rounded-2xl" src="/images/projects/museum/3.png" />
                                 </Carousel>
-                                <div className="card-body">
-                                    <h2 className="card-title">
+                                <div className="card-body text-white">
+                                    <h2 className="flex flex-wrap card-title">
                                         Feelings Museum <a href="https://github.com/gustavosilveiragss/museudossentimentos" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
                                     </h2>
                                     <p>A &quot;web museum&quot; for people to demonstrate their feelings through art. <br />
@@ -74,15 +65,15 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-[500px] bg-base-100">
+                            <div className="card w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                 <div className="self-center h-max flex items-center">
                                         <img alt="." className="rounded-2xl" src="/images/projects/dolphin/dolphin.png" />
                                     </div>
                                     <img alt="." className="rounded-2xl" src="/images/projects/dolphin/1.png" />
                                 </Carousel>
-                                <div className="card-body">
-                                    <h2 className="card-title">
+                                <div className="card-body text-white">
+                                    <h2 className="flex flex-wrap card-title">
                                         Dolphin <a href="https://github.com/gustavosilveiragss/dolphin" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
                                     </h2>
                                     <p>Mask detection platform for establishments. <br />

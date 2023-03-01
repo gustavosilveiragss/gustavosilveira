@@ -30,6 +30,9 @@ const NavBarPages = () => {
                 <NavBtn id='skills'></NavBtn>
             </li>
             <li>
+                <NavBtn id='experience'></NavBtn>
+            </li>
+            <li>
                 <NavBtn id='projects'></NavBtn>
             </li>
         </>
