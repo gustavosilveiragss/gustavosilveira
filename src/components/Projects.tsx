@@ -61,7 +61,7 @@ const Projects = () => {
                                     <h2 className="card-title">
                                         Feelings Museum <a href="https://github.com/gustavosilveiragss/museudossentimentos" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
                                     </h2>
-                                    <p>A "web museum" for people to demonstrate their feelings through art. <br />
+                                    <p>A &quot;web museum&quot; for people to demonstrate their feelings through art. <br />
                                         Made for a scientific research fair, the goal was to have a public and collaborative display for art that represented feelings <br />
                                         Developed with <span className="text-info">Next.js</span>, the project contained an <span className="text-info">API</span> to manage the <span className="text-info">Firebase Realtime Database</span> as well as <span className="text-info">storage and user authentication.</span> <br />
                                         Lastly, the frontend was made with <span className="text-info">React</span>
