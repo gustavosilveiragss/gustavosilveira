@@ -78,7 +78,7 @@ const Projects = () => {
                                     </h2>
                                     <p>Mask detection platform for establishments. <br />
                                         Made during the pandemic, the project aimed to provide an unexpensive mask detection platform for establishments to set up. <br />
-                                        With help from someone who trained a <span className="text-info">Tensorflow model</span> to detect masks, I implemented a platform to take a picture when someone tried to enter without a mask, the register it to a <span className="text-info">local MongoDB database</span>. Then the data was presented in a <span className="text-info">UI built with React.</span>
+                                        With help from someone who trained a <span className="text-info">Tensorflow model</span> to detect masks, I implemented a platform to take a picture when someone tried to enter without a mask and register it in a <span className="text-info">local MongoDB database</span>. Then the data was presented in a <span className="text-info">UI built with React.</span>
                                     </p>
                                     <div className="card-actions justify-end">
                                         <div className="badge badge-outline">JavaScript</div>
