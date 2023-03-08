@@ -19,6 +19,33 @@ const Projects = () => {
                         </div>
                         <h1 className="text-5xl font-bold text-white">Some personal projects</h1>
                         <div className="flex flex-wrap gap-5 pt-4 items-stretch justify-center">
+
+                            <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
+                                <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
+                                    <div className="self-center h-max flex items-center">
+                                        <img alt="." className="rounded-2xl scale-50" src="/flavicon.ico" />
+                                    </div>
+                                    <img alt="." className="rounded-2xl mt-[60px]" src="/images/projects/blog/1.png" />
+                                </Carousel>
+                                <div className="card-body text-white">
+                                    <h2 className="flex flex-wrap card-title">
+                                        Personal Blog
+                                        <a href="https://github.com/gustavosilveiragss/blog" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
+                                        <a href="https://blog.gustavosilveira.codes" className="btn border-opacity-0 gap-2 bg-violet-800"><FaExternalLinkSquareAlt size={16} /> visit</a>
+                                    </h2>
+                                    <p>A personal blog platform.<br />
+                                        Made with the initial intent of not letting my SQL out of practice (after making many NoSQL projects), the website is now a place for me to post random stories, development updates, tutorials or anything else. <br />
+                                        Built using <span className="text-info">PostgreSQL</span> for the database. As well as <span className="text-info">Next.js and React</span> for the website and API.
+                                    </p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">TypeScript</div>
+                                        <div className="badge badge-outline">Next.js</div>
+                                        <div className="badge badge-outline">PostgreSQL</div>
+                                        <div className="badge badge-outline">React</div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <div className="carousel carousel-slider self-center h-max flex items-center">
                                     <img alt="." className="rounded-2xl" src="/images/projects/bacqpack/bacqpack.png" />
@@ -39,6 +66,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                     <div className="self-center h-max flex items-center">
@@ -67,6 +95,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                     <div className="self-center h-max flex items-center">
@@ -92,6 +121,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

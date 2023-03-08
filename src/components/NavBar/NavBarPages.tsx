@@ -31,6 +31,9 @@ const NavBarPages = () => {
             <li>
                 <NavBtn id='projects'></NavBtn>
             </li>
+            <li>
+                <a href="https://blog.gustavosilveira.codes" className="text-white rounded-lg">BLOG</a>
+            </li>
         </>
     )
 };
