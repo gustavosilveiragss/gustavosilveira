@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
@@ -50,7 +50,9 @@ const Projects = () => {
                                 </Carousel>
                                 <div className="card-body text-white">
                                     <h2 className="flex flex-wrap card-title">
-                                        Feelings Museum <a href="https://github.com/gustavosilveiragss/museudossentimentos" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
+                                        Feelings Museum
+                                        <a href="https://github.com/gustavosilveiragss/museudossentimentos" className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"><FaGithub size={20} /> GitHub</a>
+                                        <a href="https://museudossentimentos.gustavosilveira.codes" className="btn border-opacity-0 gap-2 bg-violet-800"><FaExternalLinkSquareAlt size={16} /> visit</a>
                                     </h2>
                                     <p>A &quot;web museum&quot; for people to demonstrate their feelings through art. <br />
                                         Made for a scientific research fair, the goal was to have a public and collaborative display for art that represented feelings <br />
@@ -67,7 +69,7 @@ const Projects = () => {
                             </div>
                             <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
-                                <div className="self-center h-max flex items-center">
+                                    <div className="self-center h-max flex items-center">
                                         <img alt="." className="rounded-2xl" src="/images/projects/dolphin/dolphin.png" />
                                     </div>
                                     <img alt="." className="rounded-2xl" src="/images/projects/dolphin/1.png" />

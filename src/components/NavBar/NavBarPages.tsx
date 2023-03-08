@@ -1,7 +1,3 @@
-// import { Link } from "react-router-dom";
-
-import Link from "next/link";
-
 const NavBtn = ({ id }) => {
     return (
         <button
