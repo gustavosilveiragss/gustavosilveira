@@ -23,7 +23,7 @@ const Projects = () => {
                             <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                                 <Carousel showThumbs={false} infiniteLoop={true} showStatus={false} swipeable={true} emulateTouch={true} >
                                     <div className="self-center h-max flex items-center">
-                                        <img alt="." className="rounded-2xl scale-50" src="/flavicon.ico" />
+                                        <img alt="." className="rounded-2xl" style={{ scale: '40%' }} src="/flavicon.ico" />
                                     </div>
                                     <img alt="." className="rounded-2xl mt-[60px]" src="/images/projects/blog/1.png" />
                                 </Carousel>

@@ -15,7 +15,10 @@ const Home = () => {
                         <div className="w-fit px-2 border-solid border rounded-md text-secondary border-secondary mt-3">SOFTWARE DEVELOPER</div>
                         <p className="py-6 text-white">I&apos;ve got a passion for problem-solving and helping create new things</p>
                         <a href="mailto:gustavo24gss@gmail.com">
-                            <button className="btn btn-success hover:bg-opacity-80">Contact</button>
+                            <button className="btn btn-success mr-2 hover:bg-opacity-80">Contact</button>
+                        </a>
+                        <a href="/files/CV.pdf">
+                            <button className="btn btn-primary hover:bg-opacity-80">Resume</button>
                         </a>
                     </div>
                 </div>
