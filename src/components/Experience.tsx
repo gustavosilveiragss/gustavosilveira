@@ -31,11 +31,13 @@ const Experience = () => {
                                 icon={<FaBriefcase />}
                             >
                                 <h3 className="vertical-timeline-element-title font-bold">Pague Melhor</h3>
-                                <h5 className="vertical-timeline-element-subtitle">Freelancer</h5>
+                                <h5 className="vertical-timeline-element-subtitle">Freelancer Fullstack Developer</h5>
                                 <p>
-                                    Performed as a <span className='text-yellow-100'>Fullstack developer</span>, but mostly worked on the API. <br />
-                                    The startup&apos;s project was a payment service, and I helped both with backend and frontend. <br/>
-                                    Developed with the <span className='text-yellow-100'>ASP.NET MVC stack</span> and <span className='text-yellow-100'>MS SQL database</span>, plus a few frontend libraries such as <span className='text-yellow-100'>JQuery</span>.
+                                    {'\u00B7'} ASP.NET MVC
+                                    <br />{'\u00B7'} API development
+                                    <br />{'\u00B7'} Microsoft SQL Server Database
+                                    <br />{'\u00B7'} Frontend with JQuery e Bootstrap
+                                    <br />{'\u00B7'} Git versioning
                                 </p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
@@ -46,11 +48,16 @@ const Experience = () => {
                                 icon={<FaBriefcase />}
                             >
                                 <h3 className="vertical-timeline-element-title font-bold">Ticow</h3>
-                                <h5 className="vertical-timeline-element-subtitle">Apprentice</h5>
+                                <h5 className="vertical-timeline-element-subtitle">Apprentice Mobile Developer</h5>
                                 <p>
-                                    Acted as a <span className='text-yellow-100'>Flutter mobile developer.</span><br />
-                                    The startup started as a coupon app, and later switched to a food delivery app. <br />
-                                    I mainly worked on the Flutter app, but was frequently in touch with the <span className='text-yellow-100'>.NET and MS SQL backend</span><br />
+                                    {'\u00B7'} Flutter app development
+                                    <br />{'\u00B7'} Frequent contact with .NET backend
+                                    <br />{'\u00B7'} API development
+                                    <br />{'\u00B7'} Git and Azure DevOps versioning
+                                    <br />{'\u00B7'} Implementation of Firebase Authentication, Cloud Functions and Analytics services
+                                    <br />{'\u00B7'} Unit and integration testing 
+                                    <br />{'\u00B7'} Communication with other sectors within the project
+                                    <br />{'\u00B7'} Familiarity with the adaptive nature of startups
                                 </p>
                             </VerticalTimelineElement>
                         </VerticalTimeline>
