@@ -77,7 +77,7 @@ const Projects = () => {
                     Made with the initial intent of not letting my SQL go out of
                     practice (after making many NoSQL projects), the website is
                     now a place for me to post tutorials, development updates,
-                    things I'm learning or anything else. <br />
+                    things I&apos;m learning or anything else. <br />
                     Built using <span className="text-info">
                       PostgreSQL
                     </span>{" "}
