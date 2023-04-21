@@ -1,4 +1,4 @@
-import { SiNextdotjs, SiJquery, SiDart, SiFlutter, SiDotnet, SiCsharp, SiMicrosoftsqlserver, SiFirebase, SiTypescript, SiJavascript, SiNodedotjs, SiReact } from "react-icons/si";
+import { SiNextdotjs, SiJquery, SiDart, SiFlutter, SiDotnet, SiCsharp, SiMicrosoftsqlserver, SiFirebase, SiTypescript, SiJavascript, SiNodedotjs, SiReact, SiPython, SiRust, SiPostgresql } from "react-icons/si";
 
 const Skills = () => (
     <>
@@ -16,6 +16,30 @@ const Skills = () => (
                         <div className="pt-2 text-white">Though I&apos;ve experimented with many other tools,<br /> I&apos;m most experienced with:</div>
 
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4 items-center justify-center">
+                            <div id="rust" className="card">
+                                <figure><SiRust size={80} color='white' /></figure>
+                                <div className="card-body p-1">
+                                    <h2 className="card-title justify-center text-white">
+                                        Rust
+                                    </h2>
+                                </div>
+                            </div>
+                            <div id="python" className="card">
+                                <figure><SiPython size={80} color='white' /></figure>
+                                <div className="card-body p-1">
+                                    <h2 className="card-title justify-center text-white">
+                                        Python
+                                    </h2>
+                                </div>
+                            </div>
+                            <div id="postgres" className="card">
+                                <figure><SiPostgresql size={80} color='white' /></figure>
+                                <div className="card-body p-1">
+                                    <h2 className="card-title justify-center text-white">
+                                        PostgreSQL
+                                    </h2>
+                                </div>
+                            </div>
                             <div id="dotnet" className="card">
                                 <figure><SiDotnet size={80} color='white' /></figure>
                                 <div className="card-body p-1">
@@ -40,27 +64,11 @@ const Skills = () => (
                                     </h2>
                                 </div>
                             </div>
-                            <div id="dart" className="card">
-                                <figure><SiDart size={80} color='white' /></figure>
-                                <div className="card-body p-1">
-                                    <h2 className="card-title justify-center text-white">
-                                        Dart
-                                    </h2>
-                                </div>
-                            </div>
                             <div id="flutter" className="card">
                                 <figure><SiFlutter size={80} color='white' /></figure>
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
                                         Flutter
-                                    </h2>
-                                </div>
-                            </div>
-                            <div id="firebase" className="card">
-                                <figure><SiFirebase size={80} color='white' /></figure>
-                                <div className="card-body p-1">
-                                    <h2 className="card-title justify-center text-white">
-                                        Firebase
                                     </h2>
                                 </div>
                             </div>
@@ -101,14 +109,6 @@ const Skills = () => (
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
                                         Next.js
-                                    </h2>
-                                </div>
-                            </div>
-                            <div id="jquery" className="card">
-                                <figure><SiJquery size={80} color='white' /></figure>
-                                <div className="card-body p-1">
-                                    <h2 className="card-title justify-center text-white">
-                                        JQuery
                                     </h2>
                                 </div>
                             </div>
