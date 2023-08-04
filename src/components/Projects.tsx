@@ -82,8 +82,8 @@ const Projects = () => {
                     For a <span className="text-info">Fundamentals of Cyberphysical Systems</span> class, a project was developed to address waste management in smart cities. 
                     The chosen solution involved creating a smart public trash bin with real-time status tracking.<br />
                     An <span className="text-info">ESP32 microcontroller and ultrasonic sensor</span> were employed to measure the fill level of the bin. 
-                    There were also structural and functional diagramss, illustrating the project's components and operations.<br />
-                    The prototype's logic involved calculating fill percentage and sending updates to a remote API for status changes. 
+                    There were also structural and functional diagramss, illustrating the project&apos;s components and operations.<br />
+                    The prototype&apos;s logic involved calculating fill percentage and sending updates to a remote API for status changes. 
                     The API was made with <span className="text-info">Rust, Actix Web, PostreSQL, Diesel</span> and hosted on Fly.io, being just a more organized verison of the last API I built.
                     This project exemplifies a practical approach to <span className="text-info">optimizing waste management in urban environments</span>. 
                   </p>
