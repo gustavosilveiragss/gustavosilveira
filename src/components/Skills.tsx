@@ -1,4 +1,4 @@
-import { SiNextdotjs, SiJquery, SiDart, SiFlutter, SiDotnet, SiCsharp, SiMicrosoftsqlserver, SiFirebase, SiTypescript, SiJavascript, SiNodedotjs, SiReact, SiPython, SiRust, SiPostgresql } from "react-icons/si";
+import { SiNextdotjs, SiJava, SiFlutter, SiDotnet, SiTypescript, SiJavascript, SiC, SiReact, SiPython, SiRust, SiPostgresql, SiVuedotjs } from "react-icons/si";
 
 const Skills = () => (
     <>
@@ -21,6 +21,14 @@ const Skills = () => (
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
                                         Rust
+                                    </h2>
+                                </div>
+                            </div>
+                            <div id="c" className="card">
+                                <figure><SiC size={80} color='white' /></figure>
+                                <div className="card-body p-1">
+                                    <h2 className="card-title justify-center text-white">
+                                        C
                                     </h2>
                                 </div>
                             </div>
@@ -48,19 +56,19 @@ const Skills = () => (
                                     </h2>
                                 </div>
                             </div>
-                            <div id="csharp" className="card">
-                                <figure><SiCsharp size={80} color='white' /></figure>
+                            <div id="java" className="card">
+                                <figure><SiJava size={80} color='white' /></figure>
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
-                                        C#
+                                        Java
                                     </h2>
                                 </div>
                             </div>
-                            <div id="mssql" className="card">
-                                <figure><SiMicrosoftsqlserver size={80} color='white' /></figure>
+                            <div id="vue" className="card">
+                                <figure><SiVuedotjs size={80} color='white' /></figure>
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
-                                        MSSQL
+                                        Vue.js
                                     </h2>
                                 </div>
                             </div>
@@ -85,14 +93,6 @@ const Skills = () => (
                                 <div className="card-body p-1">
                                     <h2 className="card-title justify-center text-white">
                                         TypeScript
-                                    </h2>
-                                </div>
-                            </div>
-                            <div id="node" className="card">
-                                <figure><SiNodedotjs size={80} color='white' /></figure>
-                                <div className="card-body p-1">
-                                    <h2 className="card-title justify-center text-white">
-                                        Node.js
                                     </h2>
                                 </div>
                             </div>

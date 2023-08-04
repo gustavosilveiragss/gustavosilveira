@@ -26,6 +26,22 @@ const Experience = () => {
                                 className="vertical-timeline-element--work"
                                 contentStyle={{ background: '#3B3659', color: '#fff' }}
                                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                date="June 2023 - Today"
+                                iconStyle={{ background: '#6A548F', color: '#fff' }}
+                                icon={<FaBriefcase />}
+                            >
+                                <h3 className="vertical-timeline-element-title font-bold">Exati Tecnologia</h3>
+                                <h5 className="vertical-timeline-element-subtitle">Fullstack Developer Intern</h5>
+                                <p>
+                                    {'\u00B7'} Java
+                                    <br />{'\u00B7'} Vue.js
+                                    <br />{'\u00B7'} PostgreSQL
+                                </p>
+                            </VerticalTimelineElement>
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element--work"
+                                contentStyle={{ background: '#3B3659', color: '#fff' }}
+                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date="December 2020 - February 2021"
                                 iconStyle={{ background: '#6A548F', color: '#fff' }}
                                 icon={<FaBriefcase />}

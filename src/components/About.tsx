@@ -18,8 +18,8 @@ const About = () => {
                                 <div className="h-[1px] w-full bg-secondary block relative top-3"></div>
                             </div>
                             <div className="pt-2 text-accent max-w-lg">
-                                I&apos;ve always enjoyed <span className="text-info">building things</span>. Before high school, I started getting interested in programming. Since then, I&apos;ve been a part of <span className="text-info">two startups</span>, working mostly with <span className="text-info">mobile and web development</span>.<br /><br />
-                                Currently, I&apos;m studying <span className="text-info">Software Engineering (PUCPR)</span> and working on personal projects. However, I am actively seeking new job opportunities this year.<br /> <br />
+                                I&apos;ve always enjoyed <span className="text-info">building things</span>. Before high school, I started getting interested in programming.<br /><br />
+                                Currently, I&apos;m studying <span className="text-info">Computer Science (PUCPR)</span> and <span className="text-info">interning as a Fullstack Developer at Exati</span>. Additionally, I continue working on personal projects and participating in other smaller projects.<br /> <br />
                                 Outside of coding, some of my <span className="text-info">main interests</span> include:
                                 <ul className="interests">
                                     <li>Hiking</li>

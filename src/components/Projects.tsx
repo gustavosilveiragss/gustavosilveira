@@ -1,7 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import {
-  FaExternalLinkAlt,
   FaExternalLinkSquareAlt,
   FaGithub,
 } from "react-icons/fa";
@@ -33,6 +32,71 @@ const Projects = () => {
               Some personal projects
             </h1>
             <div className="flex flex-wrap gap-5 pt-4 items-stretch justify-center">
+            <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
+                <Carousel
+                  showThumbs={false}
+                  infiniteLoop={true}
+                  showStatus={false}
+                  swipeable={true}
+                  emulateTouch={true}
+                >
+                  <img
+                    alt="."
+                    className="rounded-2xl mt-[200px]"
+                    src="/images/projects/bin-monitor/1.png"
+                  />
+                  <img
+                    alt="."
+                    className="rounded-2xl mt-[120px]"
+                    src="/images/projects/bin-monitor/2.jpeg"
+                  />
+                  <img
+                    alt="."
+                    className="rounded-2xl mt-[200px]"
+                    src="/images/projects/bin-monitor/3.jpeg"
+                  />
+                  <img
+                    alt="."
+                    className="rounded-2xl mt-[200px]"
+                    src="/images/projects/bin-monitor/4.png"
+                  />
+                  <img
+                    alt="."
+                    className="rounded-2xl mt-[60px]"
+                    src="/images/projects/bin-monitor/5.png"
+                  />
+                </Carousel>
+                <div className="card-body text-white">
+                  <h2 className="flex flex-wrap card-title">
+                    Bin Monitor
+                    <a
+                      href="https://github.com/gustavosilveiragss/bin-monitor"
+                      className="btn border-opacity-0 ml-2 gap-2 bg-[#0D1117]"
+                    >
+                      <FaGithub size={20} /> GitHub
+                    </a>
+                  </h2>
+                  <p>
+                    A Smart Public Trash Bin for Efficient Waste Management
+                    <br />
+                    For a <span className="text-info">Fundamentals of Cyberphysical Systems</span> class, a project was developed to address waste management in smart cities. 
+                    The chosen solution involved creating a smart public trash bin with real-time status tracking.<br />
+                    An <span className="text-info">ESP32 microcontroller and ultrasonic sensor</span> were employed to measure the fill level of the bin. 
+                    There were also structural and functional diagramss, illustrating the project's components and operations.<br />
+                    The prototype's logic involved calculating fill percentage and sending updates to a remote API for status changes. 
+                    The API was made with <span className="text-info">Rust, Actix Web, PostreSQL, Diesel</span> and hosted on Fly.io, being just a more organized verison of the last API I built.
+                    This project exemplifies a practical approach to <span className="text-info">optimizing waste management in urban environments</span>. 
+                  </p>
+                  <div className="card-actions justify-end">
+                    <div className="badge badge-outline">Rust</div>
+                    <div className="badge badge-outline">Actix Web</div>
+                    <div className="badge badge-outline">PostgreSQL</div>
+                    <div className="badge badge-outline">ESP32</div>
+                    <div className="badge badge-outline">Arduino</div>
+                  </div>
+                </div>
+              </div>
+              
               <div className="card w-full md:w-[500px] bg-base-100 shadow-2xl">
                 <Carousel
                   showThumbs={false}
